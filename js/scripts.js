@@ -12,55 +12,93 @@ function userInfor () {
 
     var gender=prompt("Enter the letter that represents your gender, A=female,B=male");
 
-    if("gender===A")
-    { alert("You are female");
+    if("gender==A"){
 
-    if (day===0);
-    {alert("Akosua")}
+    
 
-    if (day===1);
-    {alert("Adwoa")}
+         alert("You are female");
 
-    if (day===2);
-    {alert("Abenaa")}
+        if (day===0)
 
-    if (day===3);
-    {alert("Akua")}
+        {
+            alert("Your Akan name is Akosua");
+        }
 
-    if (day===4);
-    {alert("Yaa")}
+        else if (day===1)
+        {
 
-    if (day===5);
-    {alert("Afua")}
+        alert("Your Akan name is Adwoa");
+        }
 
-    if (day===6);
-    {alert("Ama")}
+        else if (day===2)
+        {
+
+        alert("Your Akan name is Abenaa");
+        }
+
+        else if (day===3){
+
+        alert("Your Akan name is Akua");
+    }
+
+        else if (day===4){
+
+        alert("Your Akan name is Yaa");
+        }
+
+        else if (day===5){
+
+        alert("Your Akan name is Afua");
+        }
+
+        else {
+
+        alert("Your Akan name is Ama");
+        }
 
     }
 
 
-if("gender===B")
-{ alert("You are male");
-if (day===0);
-{alert("Kwasi")}
+if("gender==B"){ 
 
-if (day===1);
-{alert("Kwadwo")}
+    alert("You are male");
 
-if (day===2);
-{alert("Kwabena")}
+         if (day===0){
 
-if (day===3);
-{alert("Kwaku")}
+        alert("Your Akan name is Kwasi");
+        }
 
-if (day===4);
-{alert("Yaw")}
+        else if (day===1){
 
-if (day===5);
-{alert("Kofi")}
+        alert("Your Akan name is Kwadwo");
+        }
 
-if (day===6);
-{alert("Kwame")}
+        else if (day===2){
+        
+
+        alert("Your Akan name is Kwabena");
+        }
+
+        else if (day===3){
+
+        alert("Your Akan name is Kwaku");
+        }
+
+        else if (day===4){
+
+        alert("Your Akan name is Yaw");
+        }
+
+        else if (day===5)
+        {
+
+        alert("Your Akan name is Kofi");
+        }
+
+        else {
+
+        alert("Your Akan name is Kwame");
+        }
 
 }
 
