@@ -1,0 +1,19 @@
+h1 {
+    color:yellow;
+    text-align: center;
+    font-size:50px;
+}
+.brief{
+    color:black;
+    background-color:green;
+    border: 1px solid red;
+    font-size:20px;
+}
+body{
+    background-image: url(../images/bg2.jpeg);
+}
+#form{
+    color:darkblue;
+    float:right;
+}
+

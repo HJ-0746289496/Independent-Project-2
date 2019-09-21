@@ -103,6 +103,7 @@ if("gender==B"){
 }
 
 }
+/*lets run the function now*/
 
 userInfor();
 
