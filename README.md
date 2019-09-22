@@ -7,7 +7,7 @@ Its also lets the users to choose their gender  and outputs their Akan names.
 
 ### AUTHOR INFORMATION.
 
-Author's name is HAMDI JAMA @ hamdi469959@gmail.com
+By HAMDI JAMA.
 
 #### SETUP INSTRACTIONS.
 
@@ -15,13 +15,32 @@ Author's name is HAMDI JAMA @ hamdi469959@gmail.com
 
 2.After downloading,instal it into your Desktop.
 
-3.Open the terminal and clone the project to your local repository.
+3.Fork the project to your github repository.
 
-4.Navigate into the cloned project.
+4.Open the terminal and clone the project to your local repository.
 
-5.Click on Atom .  on the terminal to open the project.
+5.Navigate into the cloned project.
+
+6.Click on Atom .  on the terminal to open the project.
+
+##### TECHNOLOGIES USED.
+
+HTML ,CSS ,JAVASCRIPT AND ATOM.
+
+#### CONTACTS.
+
+Phone
+
+0746289496 ,
+
+Email
+
+hamdi46289496@gmail.com.
 
 
-6.Click this link  https://getbootstrap.com/ to instal Bootstrap
+
+
+
+
 
 
