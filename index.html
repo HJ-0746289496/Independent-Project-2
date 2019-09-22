@@ -19,23 +19,18 @@
     </div><br>
     <img src="images/africa.jpg" alt="Africa" width="20%">
 
-    <button id="form">
-        CENTURY:<br>
-        <input type="text" name="CC"><br>
-        YEAR:<br>
-        <input type="text" name="YY"><br>
-        MONTH:<br>
-        <input type="text" name="MM"><br>
-        DAY:<br>
-        <input type="text" name="DD"><br><br>
+    <form class="form">
+            Date:<br>
+            <input type="text" id="dd" name="Date"><br>
+            Month:<br>
+            <input type="text" id="mm" name="month"><br>
+            Year:<br>
+            <input type="text" id="yyyy" name="Year"><br>
 
-        <!--i will add the radio button now-->
 
-        <input type="radio" name="gender" value="female"checked>FEMALE<br>
-        <input type="radio" name="gender" value="male">MALE<br>
-        <input type="radio" name="gender" value="other">OTHER<br><br>
-
-        <input type="submit" value="submit">
+         <input type="radio" name="gender" value="male">Male<br>
+         <input type="radio" name="gender" value="female">Female<br>
+         <button type="button" onclick="userInfor()">submit</button>
 
 
     </form>

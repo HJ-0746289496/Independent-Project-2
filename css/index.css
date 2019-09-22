@@ -1,7 +1,8 @@
 h1 {
-    color:lightblue;
+    color:wheat;
     text-align: center;
     font-size:100px;
+    text-decoration-style: dotted;
 }
 .brief{
     color:black;
@@ -12,7 +13,7 @@ h1 {
 body{
     background-image: url(../images/bg2.jpeg);
 }
-#form{
+.form{
     color:darkblue;
     float:right;
 }
