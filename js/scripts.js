@@ -1,102 +1,106 @@
 function userInfor () {
 
-    var dd = parseInt(document.getElementById('dd').Value);
-    var mm =  parseInt(document.getElementById('mm').Value);
-    var yyyy =  parseInt(document.getElementById('yyyy').Value);
-    var gender=document.querySelector('input[name="gender"]:checked').Value;
+    var dd = parseInt(document.getElementById('dd').value);
+    var mm =  parseInt(document.getElementById('mm').value);
+    var cc = parseInt(document.getElementById("cc").value);
+    var yy =  parseInt(document.getElementById('yy').value);
 
-    var cc = parseInt(yyyy.toString().substring(0,2)) + 1;
+    var d =parseInt( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
 
-    var yy = parseInt(yyyy.toString().substring(2,4));
+    alert("The day of the week you were born is :" + d);
 
-    var d=(((cc/4)-2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd ) % 7;
-    if(cc === 21){
-        var workingD = Math.ceil(d);
-    } else {
-        var workingD = Math.round(d);
-    }
+    var gender=document.querySelector('input[name="gender"]:checked').value;
 
-    console.log(workingD)
+   
 
     
-    if(gender === "male"){
+    if(gender == "1"){
 
-        if (workingD===7){
+        alert("You are male");
+
+        if (d===0){
 
         alert("Your Akan name is Kwasi");
         }
 
-        else if (workingD===1){
+        else if (d===1){
     
         alert("Your Akan name is Kwadwo");
         }
 
-        else if (workingD===2)
+        else if (d===2)
         {
 
         alert("Your Akan name is Kwabena");
         }
 
-        else if (workingD===3){
+        else if (d===3){
 
         alert("Your Akan name is Kwaku");
         }
 
-        else if (workingD===4){
+        else if (d===4){
 
         alert("Your Akan name is Yaw");
         }
 
-        else if (workingD===5){
+        else if (d===5){
 
         alert("Your Akan name is Kofi");
         }
 
-        else {
+        else if(d===6) {
 
         alert("Your Akan name is Kwame");
 
         }
+        else{
+            alert("error.try again");
+        }
+    } 
+    
+    else{
+        alert("You are female");
 
-     } else{
-        
-
-         if (workingD===7){
+         if (d===0){
 
         alert("Your Akan name is Akosua");
         }
 
-        else if (workingD===1){
+        else if (d===1){
 
         alert("Your Akan name is Adwoa");
         }
 
-        else if (workingD===2){
+        else if (d===2){
         
 
         alert("Your Akan name is Abenaa");
         }
 
-        else if (day===3){
+        else if (d===3){
 
         alert("Your Akan name is Akua");
         }
 
-        else if (day===4){
+        else if (d===4){
 
         alert("Your Akan name is Yaa");
         }
 
-        else if (day===5)
+        else if (d===5)
         {
 
         alert("Your Akan name is Afua");
         }
 
-        else {
+        else if(d===6) {
 
         alert("Your Akan name is Ama");
 
+        }
+        else{
+            alert("error.try again")
         }
 
     }
